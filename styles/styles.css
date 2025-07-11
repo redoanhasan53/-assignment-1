@@ -1,0 +1,90 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Background container with image */
+.hero-section {
+background-image: url(../images/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px 40px;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  height: 51px;
+  width: 99px;
+  background-color: #4E47FF;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 6px; /* Optional */
+}
+
+/* Sign Up button */
+.signup-btn {
+  height: 48px;
+  width: 132px;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+
+/* Banner section */
+.banner {
+  text-align: center;
+  margin-top: 120px;
+  
+  
+}
+
+.banner-heading {
+  width: 905px;
+  max-width: 100%;
+  height: 152px;
+  margin: 0 auto 1px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #252432;
+}
+
+/* Banner button */
+.banner-btn {
+  height: 40px;
+  width: 130px;
+  background-color: #302ae7;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 12px 20px;
+  
+  
+}
+
+
